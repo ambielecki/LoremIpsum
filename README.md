@@ -1,6 +1,7 @@
 Lorem Ipsum Generator
 =====================
 
+This is an extension of badcow's lorem ipsum generator [badcow/LoermIpsum](https://github.com/Badcow/LoremIpsum).
 Library for generating lorem ipsum text. Bonus Twig extension! This has been changed around a bit from the original [geecu/LoremIpsum](https://github.com/geecu/LoremIpsum).
 
 ## Build Status
@@ -8,7 +9,7 @@ Library for generating lorem ipsum text. Bonus Twig extension! This has been cha
 
 ## Basic Usage
 
-    $generator = new Badcow\LoremIpsum\Generator();
+    $generator = new ambielecki\LoremIpsum\Generator();
     $paragraphs = $generator->getParagraphs(5);
     echo implode('<p>', $paragraphs);
 
@@ -18,6 +19,13 @@ Library for generating lorem ipsum text. Bonus Twig extension! This has been cha
 
     //composer.json
     
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ambielecki/LoremIpsum"
+        }
+    ],
+    
     "require": {
-        "badcow/lorem-ipsum": "dev-master"
+        "ambielecki/lorem-ipsum": "dev-master"
     }
