@@ -1,20 +1,20 @@
 <?php
 /*
- * This file is part of badcow-loremipsum.
+ * This file is part of ambielecki-loremipsum.
  *
  * (c) Samuel Williams <sam@badcow.co>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Badcow\LoremIpsum\Tests\Github;
+namespace ambielecki\LoremIpsum\Tests\Github;
 
-use Badcow\LoremIpsum\Generator;
+use ambielecki\LoremIpsum\Generator;
 
 /**
  * Sometimes getParagraphs(1) returns array('')
  * Reported by: arvidj
- * @link https://github.com/Badcow/LoremIpsum/issues/1
+ * @link https://github.com/ambielecki/LoremIpsum/issues/1
  */
 class Issue_01_Test extends \PHPUnit_Framework_TestCase
 {

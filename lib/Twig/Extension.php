@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Badcow\LoremIpsum\Twig;
+namespace ambielecki\LoremIpsum\Twig;
 
 class Extension extends \Twig_Extension
 {
@@ -38,7 +38,7 @@ class Extension extends \Twig_Extension
      */
     public function getLoremIpsum($count = 300, $format = 'html', $loremipsum = true)
     {
-        $generator = new \Badcow\LoremIpsum\Generator;
+        $generator = new \ambielecki\LoremIpsum\Generator;
 
         return $generator->getContent($count, $format, $loremipsum);
     }

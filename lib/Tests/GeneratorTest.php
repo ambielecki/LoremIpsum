@@ -1,15 +1,15 @@
 <?php
 /*
- * This file is part of badcow-loremipsum.
+ * This file is part of ambielecki-loremipsum.
  *
  * (c) Samuel Williams <sam@badcow.co>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Badcow\LoremIpsum\Tests;
+namespace ambielecki\LoremIpsum\Tests;
 
-use Badcow\LoremIpsum\Generator;
+use ambielecki\LoremIpsum\Generator;
 
 class GeneratorTest extends \PHPUnit_Framework_TestCase
 {
