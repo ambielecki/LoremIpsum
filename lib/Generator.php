@@ -43,7 +43,7 @@ class Generator
     /**
      * @var array
      */
-    protected $words = array('fred','ted','ed', 'led')
+    protected $words = array('fred','ted','ed', 'led');
 
     /**cd 
      * Set an array of words. Removes existing words.
